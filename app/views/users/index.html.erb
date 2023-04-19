@@ -8,6 +8,10 @@
     <p>
       <%= link_to "Show this user", user %>
     </p>
+    <li>
+    <%= gravatar_for user%>
+    <%= link_to user.name, user%>
+    </li>
   <% end %>
 </div>
 
