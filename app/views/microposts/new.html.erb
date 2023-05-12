@@ -4,7 +4,7 @@
 <%# <%= render "form", micropost: @micropost %> %>
   <%= f.text_area :content, placeholder: "Compose new micropost..." %>
   <br>
-  <%= f.hidden_field :user_id %>
+  <%= f.text_field :user_id %>
 </div>
 <%= f.submit "Post", class: "btn btn-primary"%>
 <% end %>
